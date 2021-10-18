@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Services from '../../Services/Services';
-import Banner from '../Banner/Banner';
-import SimpleAbout from '../SimpleAbout/SimpleAbout';
+import Banner from '../../Home/Banner/Banner';
+import Doctors from '../Doctors/Doctors';
+import Gallery from '../Gallery/Gallery';
 
-const Home = () => {
+const About = () => {
     return (
         <div>
             <Banner>
             <Link className = 'text-white btn btn-danger ' to='contact'>Contact Us Now</Link>
             </Banner>
-            <SimpleAbout></SimpleAbout>
-            <Services></Services>
+            <Doctors></Doctors>
+            <Gallery></Gallery>
         </div>
     );
 };
 
-export default Home;
+export default About;

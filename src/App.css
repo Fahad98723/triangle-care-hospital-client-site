@@ -1,5 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Mali&family=Poppins&display=swap');
 
 .body{
   font-family: 'Poppins', sans-serif;
+  background-color: #eee2dc;
+}
+.body a {
+  text-decoration: none;
+}
+.body i {
+  cursor: pointer;
+}
+li{
+  list-style: none;
+}
+input,textarea{
+  border: none;
 }

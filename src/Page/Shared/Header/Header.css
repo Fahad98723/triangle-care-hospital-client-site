@@ -1,0 +1,23 @@
+.menu a:hover{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.menu a {
+    margin-right: 20px;
+    padding: 2px;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+}
+.logo:hover{
+    color: white;
+}
+.heading h1 {
+    font-family: 'Mali', cursive;
+    font-size: 50px;
+}
