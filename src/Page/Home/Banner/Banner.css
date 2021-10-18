@@ -1,0 +1,5 @@
+.banner-section{
+    background: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)) , url('../../../Images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 70px 0px;
+}

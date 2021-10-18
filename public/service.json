@@ -1,0 +1,50 @@
+[
+    {
+      "_id": "616c6f6db0d953f6a4597cad",
+      "image": "https://i.ibb.co/NKrC6th/Young-doctor-Isolated-vector-character.jpg",
+      "serviceName": "Qulalified Best Doctors",
+      "details": "We have best doctors. Who is ready to served you and checked you. Our doctors are the best doctors in this country.",
+      "price": "",
+      "duration": "1-24"
+    },
+    {
+      "_id": "616c6f6d66ed5f6f93239add",
+      "image": "https://i.ibb.co/jRSnF65/Two-paramedics-rescue-team-workers-standing-in-front-of-ambulance-car-Doctor-holding-first-aid-kit-b.jpg",
+      "serviceName": "Ambulance Services",
+      "details": "If you are in bad condition and you need ambulance, then call us in our helpline. We have ambulance with medical support",
+      "price": "",
+      "duration": "1-24"
+    },
+    {
+      "_id": "616c6f6da944c4be427cb78e",
+      "image": "https://img.freepik.com/free-vector/ambulance-emergency-medical-service-staff-is-carrying-patient-stretcher_36082-467.jpg?size=626&ext=jpg",
+      "serviceName": "Emergency Service",
+      "details": "We provide emergency support for emergency patient. we always prepared for any type of emergency patient",
+      "price": "",
+      "duration": "1-24"
+    },
+    {
+      "_id": "616c6f6d13fd2309a029b900",
+      "image": "https://i.ibb.co/WsNc3YT/2736097.jpg",
+      "serviceName": "Blood Bank",
+      "details": "We stored all type of blood group for our patient. And that's why you don't have to anywhere else for blood",
+      "price": "",
+      "duration": "1-24"
+    },
+    {
+      "_id": "616c6f6d3fbd57eb8d22b1d8",
+      "image": "https://i.ibb.co/3dbDhYP/5418309.jpg",
+      "serviceName": "Free Medicine",
+      "details": "We provide free medicine for our patient . Your don't have to worry about money it's a gesture from us for our patients",
+      "price": "",
+      "duration": "6-12"
+    },
+    {
+      "_id": "616c6f6d84e505c09755915f",
+      "image": "https://i.ibb.co/DrCGjzn/professional-surgeons-surrounding-patient-operation-table-flat-illustration-74855-14150.jpg",
+      "serviceName": "Opertion Theater",
+      "details": "We have all types of doctors who are experts in operte patient.We have some extraordinary operation machine for patients . ",
+      "price": "",
+      "duration": "1-24"
+    }
+  ]
