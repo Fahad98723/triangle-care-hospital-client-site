@@ -6,10 +6,10 @@ import useService from '../../../Hook/useService';
 const ServiceDetails = () => {
     const {serviceId} = useParams()
     const  {services} = useService()
-    console.log(serviceId);
-    console.log(services);  
+
+    //service details by their id with  after click on home page services details button
     const serviceDetails = services.find(service  => service._id === serviceId)
-    console.log(serviceDetails);
+
     return( 
         <div className="py-5">
             <Card className = 'mx-auto border-2' style={{width : '22rem'}}>

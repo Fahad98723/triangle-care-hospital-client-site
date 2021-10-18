@@ -6,6 +6,7 @@ import useAuth from '../../Hook/useAuth';
 const PrivateRoute = ({ children, ...rest }) => {
     const {user,isLoading} = useAuth()
 
+    //spinner on data loading and stoping the problem after reloading always went on login 
     if(isLoading){
         return <Spinner className = 'd-block mx-auto' animation="border" variant="danger" />
     }

@@ -6,9 +6,12 @@ import './Login.css'
 const Login = () => {
     const {googleSignIn,error,setEmail, setPassword, email, password,loginWithEmailAndPass,setError,setIsLoading,signupWithEmailAndPass,name,setName,facebookSignIn} = useAuth()
 
+    //after login you will came where you were
     const location = useLocation()
     const path_url = location?.state?.from?.pathname
     const history = useHistory()
+
+    //toggle login and signup replacing 
     const [toggle , setToggle] = useState(false)
     const handleEmail = e => {
         setEmail(e.target.value)

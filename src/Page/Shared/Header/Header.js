@@ -6,6 +6,8 @@ import './Header.css'
 const Header = () => {
     const history = useHistory()
     const {user,logOut} = useAuth()
+
+    //login route push after click on login btn in nav bar
     const loginHandle= () => {
         history.push('/login')
     }

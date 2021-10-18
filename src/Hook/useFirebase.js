@@ -14,9 +14,12 @@ const  useFirebase =  () => {
     const [email, setEmail] = useState('')
     const [password , setPassword] = useState('')
     const [name, setName] = useState('')
+
+    //google sign in 
     const googleSignIn = () => {
        return signInWithPopup(auth,googleProvider)        
     }
+    //facebook sign in
     const facebookSignIn = () => {
         signInWithPopup(auth, facebookProvider)
         .then(result => {
@@ -26,6 +29,7 @@ const  useFirebase =  () => {
             setError(error.message)
         })
     }
+    //with email and pass sign in
     const loginWithEmailAndPass = (email, password) => {
         signInWithEmailAndPassword(auth,email, password)
         .then(result => {
@@ -36,6 +40,7 @@ const  useFirebase =  () => {
         })
         
     }
+    //signup with email and pass
     const signupWithEmailAndPass = (email,password,name) => {
         createUserWithEmailAndPassword(auth, email, password)
         .then((result) => {           
@@ -53,6 +58,7 @@ const  useFirebase =  () => {
         })
        
     }
+    //user data set
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {            
             if (user) {
@@ -65,6 +71,7 @@ const  useFirebase =  () => {
         })
         
     },[])
+    //log out
     const logOut = () => {
         signOut(auth).then(() => {
             setUser({})

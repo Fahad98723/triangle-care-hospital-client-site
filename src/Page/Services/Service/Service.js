@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import './Service.css'
 const Service = ({service}) => {
     const {serviceName, image, details,_id } = service
+    //sending id on the router by useParams (details button click)
     const history = useHistory()
     const handleDetails = () => {
         history.push(`/details/${_id}`)
