@@ -18,7 +18,7 @@ const SimpleAbout = () => {
                 <h1>About Us</h1>
                 </div>
                 <p>We know taht we are the best in this country . And we always try to keep this title . We provide our best services for you. We ensure everyone safety . We did our best for every patient . You will be not our customer or client you will be our part of our family </p>
-                <button onClick = {knowMore} className="btn btn-success">Know More</button>
+                <button onClick = {knowMore} className="btn btn-success mb-3">Know More</button>
                 </Col>
                 <Col lg='6'>
                     <Row  className='g-0'>

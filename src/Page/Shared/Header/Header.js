@@ -9,8 +9,9 @@ const Header = () => {
     const loginHandle= () => {
         history.push('/login')
     }
+    console.log(user);
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="white" sticky= 'top' className='py-3'>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky= 'top' className='py-3'>
         <Container>
         <Navbar.Brand className='logo' as={Link} to="/home">Triangle Care</Navbar.Brand>
         <Navbar.Toggle />
@@ -20,7 +21,7 @@ const Header = () => {
                  <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
                  
              <Navbar.Text>
-                {user?.email && <h6 className='me-3 fw-bold text-white'><i  className="fas fa-user-check fs-5 text-primary"></i> {user?.displayName}</h6>}
+                {user?.email || user?.displayName ? <h6 className='me-3 my-3 fw-bold text-white'><i  className="fas fa-user-check fs-5 text-primary"></i> {user?.displayName}</h6> : ''}
              </Navbar.Text>
             {
                 user?.email || user?.displayName ? 

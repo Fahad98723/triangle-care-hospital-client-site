@@ -19,8 +19,8 @@ const Footer = () => {
                     </Col>
                     <Col lg='4'>
                         <h3>Contact</h3>
-                        <h6><i className="fas fa-phone"></i> : +1 543 6942 360</h6>
-                        <h6><i className="fas fa-phone"></i> : +1 242 4942 290</h6>
+                        <h6><i className="fas fa-phone"></i> : +9355 3652 832</h6>
+                        <h6><i className="fas fa-phone"></i> : +5642 4352 257</h6>
                         <h6><i className="fas fa-map-marked-alt"></i> : Dubai, UAE</h6>
                     </Col>
                 </Row>

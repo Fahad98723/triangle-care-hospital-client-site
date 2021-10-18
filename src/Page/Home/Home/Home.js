@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Banner>
-            <Link className = 'text-white btn btn-danger ' to='contact'>Contact Us Now</Link>
+            <Link className = 'text-white btn btn-danger mb-3 ' to='contact'>Contact Us Now</Link>
             </Banner>
             <SimpleAbout></SimpleAbout>
             <Services></Services>
