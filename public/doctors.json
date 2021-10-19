@@ -3,7 +3,7 @@
       "_id": "1",
       "image": "https://i.ibb.co/nwfKFWj/bruno-rodrigues-279x-IHym-PYY-unsplash.jpg",
       "name": "Michale Luffy",
-      "details": "We have best doctors. Who is ready to served you and checked you. Our doctors are the best doctors in this country.",
+      "details": "As the name suggests, a neurologist is responsible for treating and diagnosing issues of the nervous system. Our nervous system includes our brain, spinal cord, sensory organs, and all the nerves.",
       "fee": "380",
       "typeOf": "NEUROLOGISTS"
     },
@@ -11,7 +11,7 @@
       "_id": "2",
       "image": "https://i.ibb.co/Bf5MS90/Picture-of-male-doctor-or-dentist-looking-at-x-ray-at-his-office.jpg?fbclid=IwAR1UwhJGWDfUZLDLRHn_HPdCXyIHBrsMmtjs_rg05rQ86PXQTKVFsZ5ZRWA",
       "name": "Adam Zoro",
-      "details": "If you are in bad condition and you need ambulance, then call us in our helpline. We have ambulance with medical support",
+      "details": "A radiologist for diagnosing diseases and internal & external injuries with the help of imaging techniques like x-rays, CT scan, MRI and ultrasound etc. They are the first step towards the diagnosis of any sort, which cannot be done without a machine.",
       "fee": "350",
       "typeOf": "RADIOLOGISTS"
     },
@@ -19,7 +19,7 @@
       "_id": "3",
       "image": "https://i.ibb.co/2sVQTrD/brian-mercado-rm7r-ZYdl3r-Y-unsplash.jpg",
       "name": "Taylor Nami",
-      "details": "We provide emergency support for emergency patient. we always prepared for any type of emergency patient",
+      "details": "An Anesthesiologists is responsible for treating the endocrine system which includes the pituitary gland, pancreas, ovaries, thyroid, hypothalamus etc. they help in treating diabetes, hyperthyroidism etc.",
       "fee": "420",
       "typeOf": "ANESTHESIOLOGISTS"
     },
@@ -27,7 +27,7 @@
       "_id": "4",
       "image": "https://i.ibb.co/X5B7RBH/young-men-nurse-blue-gown-empty-background-stethoscope.jpg?fbclid=IwAR33sTN0lnBHDPb0QTWW6UN_Mdyi9ws4gZM3utMQ24tjVbZ-6Z55M7cBCT0",
       "name": "Mr. Akainu ",
-      "details": "We stored all type of blood group for our patient. And that's why you don't have to anywhere else for blood",
+      "details": " Paediatricians are doctors who treat children. Since a child’s body functions in a different manner from ours, due to many factors like age and growing stages, their illness and health issues are different from an adult. A paediatrician helps in mental behaviour issues and physical health problems.",
       "fee": "320",
       "typeOf": "PEDIATRICIANS"
     },
@@ -35,7 +35,7 @@
       "_id": "5",
       "image": "https://i.ibb.co/YB00v6h/Medical-workers-covid-19-and-vaccination-concept-Confident-professional-doctor-female-nurse-in-blue.jpg?fbclid=IwAR04Yf92CmUR0bLn0wa5qrKJxJoXU4oNpw4wLoFIFFoyUDekgo2eVO1jKYs",
       "name": "Shaeu Eleina",
-      "details": "We provide free medicine for our patient . Your don't have to worry about money it's a gesture from us for our patients",
+      "details": "Obstrtrician involves the study of all types of cancers. This involves the radiation, medical and surgical. Oncologists can specialise in one type of cancer as well as the field is vast.",
       "fee": "200",
       "typeOf": "OBSTETRICIAN"
     },
@@ -43,7 +43,7 @@
       "_id": "6",
       "image": "https://i.ibb.co/wg2K1SD/Cheerful-happy-doctor-with-crossed-hands-on-gray-background.jpg?fbclid=IwAR36mrayI7GXVfrTt8fhlmv2S614YSUMDdLeg6txbO03FDzTnPbP5j7LAxs",
       "name": "Sanjida Henry",
-      "details": "We have all types of doctors who are experts in operte patient.We have some extraordinary operation machine for patients . ",
+      "details": "Mental health is a vast field which requires our uttermost attention. Therefore, to treat what goes inside a human brain is difficult, due to the uncertainty of it. A psychiatrist helps treat and diagnose issues of mental health.",
       "fee": "250",
       "typeOf": "PSYCHIATRISTS"
     }
