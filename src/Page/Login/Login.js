@@ -4,7 +4,7 @@ import { useLocation,useHistory} from 'react-router-dom';
 import useAuth from '../../Hook/useAuth';
 import './Login.css'
 const Login = () => {
-    const {googleSignIn,error,setEmail, setPassword, email, password,loginWithEmailAndPass,setError,setIsLoading,signupWithEmailAndPass,name,setName,facebookSignIn} = useAuth()
+    const {googleSignIn,error,setEmail, setPassword, email, password,loginWithEmailAndPass,setError,setIsLoading,signupWithEmailAndPass,name,setName,facebookSignIn,setUser} = useAuth()
 
     //after login you will came where you were
     const location = useLocation()
@@ -32,6 +32,18 @@ const Login = () => {
     // handle email and pass login up
     const emailAndPassSignIn = () => {
         loginWithEmailAndPass(email,password)
+        .then(result => {
+            setUser(result.user)
+            if (path_url) {
+                history.push(path_url)
+            }
+            else{
+                history.push('/')
+            }
+        })
+        .catch(error => {
+            setError(error.message)
+        })
     }
     // handle email and pass sign up
     const emailAndPassSignUp = () => {

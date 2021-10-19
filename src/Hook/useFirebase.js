@@ -26,15 +26,9 @@ const  useFirebase =  () => {
     }
     //with email and pass sign in
     const loginWithEmailAndPass = (email, password) => {
-        signInWithEmailAndPassword(auth,email, password)
-        .then(result => {
-            setUser(result.user)
-        })
-        .catch(error => {
-            setError(error.message)
-        })
-        
+        return signInWithEmailAndPassword(auth,email, password)     
     }
+
     //signup with email and pass
     const signupWithEmailAndPass = (email,password,name) => {
         createUserWithEmailAndPassword(auth, email, password)
@@ -79,7 +73,7 @@ const  useFirebase =  () => {
           })
     }
 
-    return {googleSignIn,user,error, isLoading,signupWithEmailAndPass,loginWithEmailAndPass, setPassword, password, setEmail, email,logOut,setIsLoading,setName, name ,facebookSignIn}
+    return {googleSignIn,user,error, isLoading,signupWithEmailAndPass,loginWithEmailAndPass, setPassword, password, setEmail, email,logOut,setIsLoading,setName, name ,facebookSignIn,setError,setUser}
 }
 
 export default useFirebase
