@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Services from '../../Services/Services';
 import Banner from '../Banner/Banner';
+import ClientTestomonials from '../ClientTestimonials/ClientTestomonials';
 import SimpleAbout from '../SimpleAbout/SimpleAbout';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             </Banner>
             <SimpleAbout></SimpleAbout>
             <Services></Services>
+            <ClientTestomonials></ClientTestomonials>
         </div>
     );
 };
