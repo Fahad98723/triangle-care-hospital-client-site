@@ -13,33 +13,58 @@ const Login = () => {
 
     //toggle login and signup replacing 
     const [toggle , setToggle] = useState(false)
+    //handle email
     const handleEmail = e => {
         setEmail(e.target.value)
     }
+    //handle toggle
     const handleToggle = e => {
         setToggle(e.target.checked)
     }
+    // handle pass
     const handlePassword = e => {
         setPassword(e.target.value)
     }
+    // handle name
     const handleName = e => {
         setName(e.target.value)
     }
-
+    // handle email and pass login up
     const emailAndPassSignIn = () => {
         loginWithEmailAndPass(email,password)
     }
-
+    // handle email and pass sign up
     const emailAndPassSignUp = () => {
         signupWithEmailAndPass(email, password,name)
     }
+    // handle form
     const formHandle  = e => {
         e.preventDefault()        
         toggle ? emailAndPassSignUp(email, password) : emailAndPassSignIn(email, password)
       
     }
+    //handle google signin
     const handleGoogleSignIn = () => {
         googleSignIn()
+        .then(result => {
+            if (path_url) {
+                history.push(path_url)
+            }
+            else{
+                history.push('/')
+            }
+        })
+        .catch(error => {
+            setError(error.message)
+        })
+        .finally(() => {
+            setIsLoading(false)
+        })
+    }
+    //handle facebook signin
+    const handleFacebookSignIn = () => {
+        facebookSignIn()
+
         .then(result => {
             if (path_url) {
                 history.push(path_url)
@@ -75,7 +100,7 @@ const Login = () => {
             </form>
             <h5 className='text-danger mt-2'>{error}</h5>
             <i onClick = {handleGoogleSignIn} className="fab fa-google fs-4"></i>
-            <i onClick={facebookSignIn}  className="fa fa-facebook-square fs-3 ms-3"></i>
+            <i onClick={handleFacebookSignIn}  className="fa fa-facebook-square fs-3 ms-3"></i>
         </Container>
     );
 };

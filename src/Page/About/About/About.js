@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div>
             <Banner>
-            <Link className = 'text-white btn btn-danger ' to='contact'>Contact Us Now</Link>
+            <Link className = 'text-white btn btn-danger ' to='/contact'>Contact Us Now</Link>
             </Banner>
             <Doctors></Doctors>
             <Gallery></Gallery>

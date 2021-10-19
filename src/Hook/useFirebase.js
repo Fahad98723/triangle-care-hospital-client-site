@@ -21,13 +21,8 @@ const  useFirebase =  () => {
     }
     //facebook sign in
     const facebookSignIn = () => {
-        signInWithPopup(auth, facebookProvider)
-        .then(result => {
-
-        })
-        .catch(error => {
-            setError(error.message)
-        })
+        return signInWithPopup(auth, facebookProvider)
+        
     }
     //with email and pass sign in
     const loginWithEmailAndPass = (email, password) => {
@@ -71,6 +66,7 @@ const  useFirebase =  () => {
         })
         
     },[])
+
     //log out
     const logOut = () => {
         signOut(auth).then(() => {
