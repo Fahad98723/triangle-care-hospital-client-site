@@ -94,7 +94,7 @@ const Login = () => {
                 <input className='btn btn-success mb-3' type="submit" value={toggle ? "Signup":"Login"} />
                 <br />
                 <input onChange={handleToggle} className="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" />
-                <label className="form-check-label" for="flexCheckChecked">
+                <label className="form-check-label" htmlFor="flexCheckChecked">
                     Or Sign Up Using
                 </label>
             </form>

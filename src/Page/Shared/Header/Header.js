@@ -11,7 +11,6 @@ const Header = () => {
     const loginHandle= () => {
         history.push('/login')
     }
-    console.log(user);
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky= 'top' className='py-3'>
         <Container>

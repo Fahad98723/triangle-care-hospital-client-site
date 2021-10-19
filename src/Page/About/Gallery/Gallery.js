@@ -7,39 +7,73 @@ import img5 from '../../../Images/about/about (5).jpg'
 import img6 from '../../../Images/about/about (6).jpg'
 import img7 from '../../../Images/about/about (7).jpg'
 import img8 from '../../../Images/about/about (8).jpg'
-import { Container,Row, Col } from 'react-bootstrap';
+import { Container,Row, Carousel } from 'react-bootstrap';
 import './Gallery.css'
 const Gallery = () => {
     return (
         <Container>
-            <div className="heading text-center ">
+            <div className="heading text-center mb-3 ">
                 <h1>Gallery</h1>
             </div>
-            <Row className='gallery g-0 py-5'>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img1} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img2} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img3} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img4} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img5} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img6} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img7} alt="" />
-                </Col>
-                <Col className='img-fluid' xs='6' lg='3'>
-                    <img src={img8} alt="" />
-                </Col>
+            <Row>
+            <Carousel className='carousel mb-5'>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img1}
+                alt="First slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img2}
+                alt="Second slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img3}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img4}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img5}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img6}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img7}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={img8}
+                alt="Third slide"
+                />
+            </Carousel.Item>
+            </Carousel>               
             </Row>
         </Container>
     );
