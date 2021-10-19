@@ -76,7 +76,6 @@ const Login = () => {
     //handle facebook signin
     const handleFacebookSignIn = () => {
         facebookSignIn()
-
         .then(result => {
             if (path_url) {
                 history.push(path_url)
