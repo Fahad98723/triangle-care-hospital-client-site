@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className = 'text-white bg-dark py-5'>
             <Container>
-                <Row className = 'align-items-center text-center'>
+                <Row className = 'align-items-center text-center gy-3'>
                     <Col lg='3'>
                     <h3>About Us</h3>
                     <p>We know taht we are the best in this country . And we always try to keep this title . We provide our best services for you. We ensure everyone safety . We did our best for every patient</p>
