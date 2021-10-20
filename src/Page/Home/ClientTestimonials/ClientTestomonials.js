@@ -19,12 +19,12 @@ const ClientTestomonials = () => {
                             </Col>
                             <Col lg='9' >
                                 <h3>Montasir Chowdhury</h3>
-                                <p>Student</p>
+                                <p>Businessman</p>
                             </Col>
                         </Row> 
                         <Row>
                             <Col lg = '6' className='mt-3 text-success fw-bold'>
-                                <p> The Big Oxmax advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli </p>
+                                <p>On behalf of my wife, who was a patient in your hospital, I humbly submit my sincere gratitude to the management and staff of Jamaica Hospital, especially to your outstanding nurses and PCAs. They have been outstandingly helpful and provided a high quality of service, care and comfort to my wife. Thank you.</p>
                             </Col>    
                         </Row>  
                     </Col>
@@ -40,7 +40,7 @@ const ClientTestomonials = () => {
                         </Row> 
                         <Row>
                             <Col lg = '6' className='mt-3 text-success fw-bold'>
-                                <p> The Big Oxmax advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli </p>
+                                <p>I recently found myself under your care for a cardiac issue. While there, accompanied by my wife, we found that the entire staff at Jamaica Hospital was exceedingly professional and efficient, from your E.R. receptionists to the cardiac care team. You should be proud of your outstanding staff and service.</p>
                             </Col>    
                         </Row>  
                     </Col>
