@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky= 'top' className='py-3'>
         <Container>
-        <Navbar.Brand className='logo' as={Link} to="/home">Triangle Care</Navbar.Brand>
+        <Navbar.Brand className='logo' as={Link} to="/home">Triangle Care Hospital</Navbar.Brand>
         <Navbar.Toggle />
              <Navbar.Collapse className="justify-content-end menu">
                  <Nav.Link as={Link} to="/home">Home</Nav.Link>
